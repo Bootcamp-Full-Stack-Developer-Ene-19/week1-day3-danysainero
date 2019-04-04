@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <section>
+            <!--Los 3 pasos-->
+            <p>
+                01 CUSTOMER INFO
+            </p>
+            <h1>
+                02 SHIPPING INFO
+            </h1>
+            <p>
+                03 PAYMENT SELECTION
+            </p>
+        </section>
+        <!--//Los 3 pasos-->
+        <h2>Payment Selection</h2>
+        <form action="">
+            <div>
+                <input type="radio" name="payment" id="creditCard">
+                <label for="creditCard">Credit Card</label>
+            </div>
+            <p>Safe money transfer using your bank account. Visa, Maestro, Discover, American Express.</p>
+            <img src="..." alt="">
+            <div>
+                <label for="cardNumber">Card Number</label>
+                <input type="number" id="cardNumber" placeholder="000 000 000 000">
+                <img src="..." alt="">
+            </div>
+            <div>
+                <label for="cardName">Name on card</label>
+                <input type="text" id="cardName">
+            </div>
+            <div>
+                <label for="expiry">Expiry Date</label>
+                <input type="month" id="expiry" placeholder="MM / YY">
+            </div>
+            <div>
+                <label for="cvv">cvv</label>
+                <input type="number" id="cvv">
+                <img src="..." alt="">
+            </div>
+
+            <div>
+                <input type="radio" name="payment" id="paypal">
+                <label for="creditCard">PayPal</label>
+                <p>You will be redirected to PayPal website to complete your purchase securely.</p>
+                <img src="..." alt="">
+            </div>
+            <button type="button">COMPLETE ORDER</button>
+        </form>
+        <a href="#">Back to Shipping Info</a>
+
+        <section>
+            <!--Seccion vertical derecha-->
+            <h2>Shopping Cart</h2>
+            <span>2</span>
+            <div>
+                <!--div para meter la lista de productos en el carrito-->
+                <ul>
+                    <li>
+                        <img src="..." alt="mochila de tela negra">
+                        <p>Lightweight College Backpack</p>
+                        <span>€ 99.90</span>
+                    </li>
+                    <li>
+                        <img src="..." alt="reloj marron resistente al agua">
+                        <p>Business Casual Leather Watch Waterproof</p>
+                        <span>€ 69.90</span>
+                    </li>
+                </ul>
+            </div>
+            <!--//div para meter la lista de productos en el carrito-->
+            <div>
+                <!--caja para voucher-->
+                <button type="button">Have a Voucher?</button>
+                <div>
+                    <form action="">
+                        <label for="discount">Descuento</label>
+                        <input type="text" id="discount">
+                        <button type="submit">Canjear</button>
+                    </form>
+                </div>
+            </div>
+            <!--//caja para voucher-->
+            <span>Subtotal</span>
+            <span>€ 169.80</span>
+            <span>Shipping</span>
+            <span>Free</span>
+            <span>Total</span>
+            <span>€ 169.80</span>
+        </section>
+        <!--//Seccion vertical derecha-->
+    </div>
+</body>
+
+</html>
